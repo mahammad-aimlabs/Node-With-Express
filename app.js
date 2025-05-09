@@ -31,5 +31,3 @@ app.get('/user',(req,res)=>{
         userName: 'Potato'
     })
  })
-
-
