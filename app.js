@@ -28,6 +28,8 @@ app.get('/',(req,res)=>{
 app.get('/user',(req,res)=>{
     res.contentType = 'application/json'
     res.send({
-        userName: 'Potato'
+        userName: 'Potato',
+        age: 24,
+        city: 'Hyderabad'
     })
- })
+})
